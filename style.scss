@@ -1,0 +1,20 @@
+// variables
+$black: #000;
+$white:#eee;
+$orange:#FF932D;
+$dark-blue:#0A02AA;
+.body{
+    background-color: $orange;
+}
+.main{
+    margin-top: 75px;
+    margin-left: 40px;
+}
+#title__pag{
+    color: #000;
+}
+
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
