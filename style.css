@@ -2,6 +2,16 @@
 .body {
   background-color: #FF932D;
 }
+.body a {
+  text-decoration: none;
+}
+.body a a:hover {
+  color: #0A02AA;
+  transition: 0.5s;
+}
+.body p {
+  margin: 5px 10px;
+}
 
 .main {
   margin-top: 75px;
@@ -10,6 +20,21 @@
 
 #title__pag {
   color: #000;
+}
+
+.image {
+  margin: 25px 0;
+  width: 80%;
+}
+
+.title {
+  width: 90%;
+  margin: 25px 0;
+}
+
+.parragraph {
+  width: 90%;
+  margin: 35px 0;
 }
 
 /*!
