@@ -11,70 +11,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body">
-  <nav class="navbar navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" id="title__pag" href="index.html">Reviews By Agus</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <a class="navbar-brand" href="index.html">Reviews By Agus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Reviews By Agus</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Enlace</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                <li><a class="dropdown-item" href="#">Acción</a></li>
-                <li><a class="dropdown-item" href="#">Otra acción</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Algo más aquí</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Libros
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Nombre</a></li>
+              <li><a class="dropdown-item" href="#">Autor</a></li>
+              <li><a class="dropdown-item" href="#">Estrellas</a></li>
+            </ul>
+            <li><a class="dropdown-item" href="#">Autores</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre Nosotros</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
-    <main class="main">
-        <section class=".container-fluid">
-            <article class="container-fluid container__libros">
-                <img src="images/ladron-del-rayo.jpg" class=".img-thumbnail rounded image" alt="Percy Jackson y el Ladron del Rayo">
-                <h3 class="title">Percy Jackson y El Ladrón del Rayo</h3>
-                <p class="parragraph">¿Qué pasaría si un día descubrieras que, en realidad, eres hijo de un dios griego que debe cumplir su musión secreta? Pues eso es lo que le sucede a Percy Jackso, que a partir de ese momento se dispone a vivir los acontecimientos más emocionantes de su vida. Expulsado de seis colegios, Percy padece dislexia y dficultades para concentrarse, O al menos ésa es la versión oficial. Objeto de burlas por inventarse historias fantásticas, ni siquiera él mismo acaba de creérselas hasta el día que los dioses del ólimpo le revelan la verdad: Percy es nada menos que un semidiós, es decir, el hijo de un dios y una mortal. Y como tal ha de descubrir quién ha robado el rayo de Zeus y así evitar que estalle una guerra entre los dioses. Para cumplir la misión contará con la ayuda de sus amigos Grover, un jover sátiro, y Annabeth, hija de Atenea. Libro escrito por <a href="#">Rick Riordan</a>.</p>
-                <p class="parragraph">Opinión: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi in reprehenderit dolorum. Laboriosam voluptatum possimus fugiat dolore maiores et ipsam aperiam a sunt pariatur hic nostrum, iusto necessitatibus, cumque praesentium dolor deserunt nobis recusandae commodi dicta. Doloremque, sint! Sit quasi iusto eius sequi atque fugiat quam a mollitia, praesentium error, rem, ipsum assumenda tempore molestiae expedita illo incidunt animi repellendus totam reprehenderit ea architecto ipsa dicta? Consequuntur harum quibusdam labore doloribus cupiditate voluptate suscipit perspiciatis! Estrellas: 5 Estrellas.</p>
-            </article>
-            <article class="container-fluid">
-                <img src="images/mar-de-mounstros.webp" class=".img-thumbnail rounded image" alt="Percy Jackson y el Mar de los Mounstros">
-                <h3 class="title">Percy Jackson y el Mar de los Mounstros</h3>
-                <p class="parragraph">Sinopsis: Desde que sabe que es un dios del Olimpo, Percy Jackson espera que el destino le depare continuas aventuras. y sus expectativas se cumplen con creces. Aunque el nuevo curso en la Escuela Meriwether transcurre con inusual normalidad, un simpre partido de balón prisionero acaba en batalla campal contra una banda de feroces gigantes. A partir de ahí los acontecimientos se precipitan: el perímetro mágico que protege el Campamento Mestizo es destruido por un misterioso enemigo y la única seguridad con que contaban los semidioses desaparece. Así, para impedir este daño irreparable, Percy y sus amigos inician la travesía del temible Mar de los Mounstros en busca de lo único que puede salvar el campamento: el Vellocino de Oro.<a href="#"></a></p>
-                <p class="parragraph">Opinión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatem sit tempora iure. Reiciendis porro earum, enim qui tempora amet sint dolorem repellendus distinctio necessitatibus aperiam veniam assumenda consequuntur voluptatem quod doloribus, ipsum optio laborum at error modi ipsa ad nisi nemo. Tenetur modi quam qui cum impedit perspiciatis odio, quibusdam deleniti sapiente quis dolore saepe magnam, maxime fuga quidem quos, quo mollitia veniam. Molestias quae porro sequi cumque labore. Voluptate laudantium incidunt adipisci laboriosam!</p>
-            </article>
-            <article class="container-fluid">
-              <img src="images/maldicion-del-titan.webp" class=".img-thumbnail rounded image" alt="Percy Jackson y la Maldición del Titán">
-              <h3 class="title">Percy Jackson y la Maldición del Titán</h3>
-              <p class="parragraph">Sinopsis: Percy recibe una llamada de socorro de su amigo Grover, el sátiro, y no duda en acudir inmediatamente en su auxilio. Lo hará acompañado de sus aliadas, las semidiosas Annabeth y Thalia, pero ninguno imagina la sorpresa que los aguarda: una terrible mantícora pretende secuestrarlos y llevarlos ante el general enviado por Cronos, el diabólico señor de los titanes. Sin embargo, gracias a la ayuda de las cazadoras de Artemisa, Percy y sus aliadas logran escapar y volver al Campamento Mestizo. Una vez allí, emprenderán la búsqueda del mounstro que puede provocar la destrucción del olimpo, a pesar de que, según la profecía del Oráculo, sólo uno de ellos logrará superar la maldición del titán.</p>
-              <p class="parragraph">Opinió: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, error laudantium non iure nostrum doloribus numquam at quo laboriosam voluptatum corrupti saepe ipsum nam impedit accusantium distinctio? Quibusdam id temporibus obcaecati possimus odit dignissimos reiciendis voluptatum, omnis, quaerat adipisci veritatis iste dolores repellendus ad numquam assumenda sunt architecto nihil at repellat eos? Ullam illo culpa veritatis consequuntur sint sed esse quaerat, cupiditate veniam reprehenderit. Illo, quas iusto! Placeat consectetur amet provident pariatur sed doloribus corrupti.</p>
-            </article>
-        </section>
-    </main>
-
+  <main>
+    <section>
+      <article class="container-fluid">
+        <img src="images/ladron-del-rayo.jpg" class="rounded mx-auto d-block" alt="Percy Jackson y el Ladrón del Rayo">
+        <h3 class="book__title">Percy Jackson y el Ladrón del Rayo</h3>
+        <p>Sinopsis: ¿Qué pasaría si un día descubrieras que, en realidad, eres hijo de un dios griego que debe cumplir una misión secreta? Pues eso es lo que le sucede a Percy Jackson, que a partir de ese momento se dispone a vivir los acontecimientos más emocionantes de su vida: Percy es nada menos que un semidiós, es decir, el hijo de un dios y una mortal. Y como tal ha de descubrir quién ha robado el rayo de Zeus y así evitar que estalle una guerra en el monte Olimpo. Para cumplir la misión contará con la ayuda de sus amigos Grover, un joven sátiro, y Annabeth, hija de Atenea. Del autor <a href="#">Rick Riordan</a>.</p>
+        <p>Opinión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae iusto aut veniam sed quas ullam modi architecto a, provident dolores eos, ad quod non similique, delectus illo! Maxime, molestias, excepturi illum nihil pariatur dolor assumenda quia veritatis, consequatur tempora eos? Corporis adipisci, commodi ab incidunt modi sequi magnam quas.</p>
+      </article>
+      <article class="container-fluid">
+        <img src="images/mar-de-mounstros.webp" class="rounded mx-auto d-block" alt="Percy Jackson y el Mar de los Mounstros">
+        <h3 class="book__title">Percy Jackson y el Mar de los Mounstros</h3>
+        <p>Sinopsis: Desde que sabe que es hijo de un dios del Olimpo, Percy Jackson espera que el destino le depare continuas aventuras. Y sus expectativas se cumplen con creces. Aunque el nuevo curso en la Escuela Meriwether transcurre con inusual nor- malidad, un simple partido de balón prisionero acaba en batalla campal contra una banda de feroces gigantes. A partir de ahí los acontecimientos se precipitan: el perímetro mágico que protege el Campamento Mestizo es destruido por un misterioso enemigo y la única seguridad con que contaban los semidioses desaparece. Así, para impedir este daño irreparable, Percy y sus amigos inician la travesía del temible Mar de los Monstruos en busca de lo único que puede salvar el campamento: el Vellocino de Oro. Del autor <a href="#">Rick Riordan</a>.</p>
+        <p>Opinión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae iusto aut veniam sed quas ullam modi architecto a, provident dolores eos, ad quod non similique, delectus illo! Maxime, molestias, excepturi illum nihil pariatur dolor assumenda quia veritatis, consequatur tempora eos? Corporis adipisci, commodi ab incidunt modi sequi magnam quas.</p>
+      </article>
+      <article class="container-fluid">
+        <img src="images/maldicion-del-titan.webp" class="rounded mx-auto d-block" alt="Percy Jackson y La Maldicion del Titán">
+        <h3 class="book__title">Percy Jackson y La Maldicion del Titán</h3>
+        <p>Sinopsis: Percy recibe una llamada de socorro de su amigo Grover, el sátiro, y no duda en acudir inmediatamente en su auxilio. Lo hará acompañado de sus aliadas, las semidiosas Annabeth y Thalia, pero ninguno imagina la sorpresa que los aguarda: una terrible mantícora pretende secuestrarlos y llevarlos ante el general enviado por Cronos, el diabólico señor de los titanes. Sin embargo, gracias a la ayuda de las cazadoras de Artemisa, Percy y sus aliadas logran escapar y volver al Campamento Mestizo. Una vez allí, emprenderán la búsqueda del monstruo que puede provocar la destrucción del Olimpo, a pesar de que, según la profecía del Oráculo, sólo uno de ellos logrará superar la maldición del titán. Del autor <a href="#">Rick Riordan</a>.</p>
+        <p>Opinión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae iusto aut veniam sed quas ullam modi architecto a, provident dolores eos, ad quod non similique, delectus illo! Maxime, molestias, excepturi illum nihil pariatur dolor assumenda quia veritatis, consequatur tempora eos? Corporis adipisci, commodi ab incidunt modi sequi magnam quas.</p>
+      </article>
+      <article class="container-fluid">
+        <img src="images/batalla-del-laberinto.webp" class="rounded mx-auto d-block" alt="Percy Jackson y La Batalla del Laberinto">
+        <h3 class="book__title">Percy Jackson y La Batalla del Laberinto</h3>
+        <p>Sinopsis: A punto de comenzar primero de secundaria, Percy Jackson no espera emociones fuertes, sino más bien un aburrimiento soporífero. Pero cuando en la nueva escuela se presenta una vieja amiga, seguida de un par de animadoras diabólicas, los acontecimientos se precipitan y todo empieza a ir de mal en peor. Cronos, el malvado señor de los titanes, amenaza con destruir el Campamento Mestizo, donde se refugian los jóvenes semidioses. Para evitarlo, Percy y sus amigos deben emprender una arriesgada búsqueda a través del laberinto, un mundo subterráneo plagado de trampas temibles y criaturas perversas, concebido para acabar con quienes se atrevan a profanarlo. Del autor <a href="#">Rick Riordan</a>.</p>
+        <p>Opinión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae iusto aut veniam sed quas ullam modi architecto a, provident dolores eos, ad quod non similique, delectus illo! Maxime, molestias, excepturi illum nihil pariatur dolor assumenda quia veritatis, consequatur tempora eos? Corporis adipisci, commodi ab incidunt modi sequi magnam quas.</p>
+      </article>
+      <article class="container-fluid">
+        <img src="images/ultimo-heroe-olimpo.webp" class="rounded mx-auto d-block" alt="Percy Jackson y El Último Heroe Del Olimpo">
+        <h3 class="book__title">Percy Jackson y El Último Heroe Del Olimpo</h3>
+        <p>Sinopsis: Los mestizos han dedicado mucho tiempo a prepararse para la batalla decisiva contra los titanes, aunque saben que sus posibilidades de obtener la victoria son mínimas. El ejército de Cronos es ahora más formidable que nunca y, con cada dios y cada mestizo que logra reclutar, aumentan los poderes del maligno titán. Tras fracasar en un primer intento de detener en alta mar las arrolladoras tropas de Cronos, Percy Jackson y los olímpicos se esfuerzan por mantener a raya la furia desatada del monstruo Tifón. Y cuando Cronos ordena el avance definitivo hacia Nueva York, donde el monte Olimpo, en lo alto del Empire State, se encuentra prácticamente indefenso, pararle los pies al implacable Señor del Tiempo dependerá exclusivamente de Percy y su hueste de jóvenes semidioses. Del autor <a href="#">Rick Riordan</a>.</p>
+        <p>Opinión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae iusto aut veniam sed quas ullam modi architecto a, provident dolores eos, ad quod non similique, delectus illo! Maxime, molestias, excepturi illum nihil pariatur dolor assumenda quia veritatis, consequatur tempora eos? Corporis adipisci, commodi ab incidunt modi sequi magnam quas.</p>
+      </article>
+    </section>
+  </main>
   <!-- BOOTSTRAP -->
   <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
