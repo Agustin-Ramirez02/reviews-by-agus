@@ -4,10 +4,38 @@ $white:#eee;
 $orange:#FF932D;
 $blue: #1180E3;
 $dark-blue:#0A02AA;
-$margin__image: 25px 0;
+$maiz: #E3E778;
+$violeta: #8E62CA;
+// ESTILOS GENERALES
 .body{
     background-color: $orange;
 }
+.header{
+    background-color: $violeta;
+}
+.image__style{
+    width: 90%;
+    margin: 25px 5%;
+}
+.title__h3{
+    margin: 10px 0 10px 20px;
+    text-decoration: underline;
+}
+.text__p{
+    margin: 10px 20px;
+}
+.footer{
+    background-color: $violeta;
+    padding: 15px 0;
+    border-top: #000 1px solid;
+    ul{
+        list-style: none;
+    }
+    a{
+        color: #000;
+    }
+}
+// ESTILOS DEDICADOS
 #navbar{
     background-color: #e3f2fd;
 }
@@ -22,8 +50,5 @@ $margin__image: 25px 0;
         padding: 0 10%;
         margin: 25px 0;
     }
-}
-.book__title{
-    text-decoration: underline;
 }
 @import "./node_modules/bootstrap/scss/bootstrap.scss"

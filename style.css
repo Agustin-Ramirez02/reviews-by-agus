@@ -3,6 +3,36 @@
   background-color: #FF932D;
 }
 
+.header {
+  background-color: #8E62CA;
+}
+
+.image__style {
+  width: 90%;
+  margin: 25px 5%;
+}
+
+.title__h3 {
+  margin: 10px 0 10px 20px;
+  text-decoration: underline;
+}
+
+.text__p {
+  margin: 10px 20px;
+}
+
+.footer {
+  background-color: #8E62CA;
+  padding: 15px 0;
+  border-top: #000 1px solid;
+}
+.footer ul {
+  list-style: none;
+}
+.footer a {
+  color: #000;
+}
+
 #navbar {
   background-color: #e3f2fd;
 }
@@ -18,10 +48,6 @@
   width: 80%;
   padding: 0 10%;
   margin: 25px 0;
-}
-
-.book__title {
-  text-decoration: underline;
 }
 
 /*!
